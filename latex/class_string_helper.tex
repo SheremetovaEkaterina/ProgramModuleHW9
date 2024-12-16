@@ -1,0 +1,121 @@
+\doxysection{String\+Helper Class Reference}
+\hypertarget{class_string_helper}{}\label{class_string_helper}\index{StringHelper@{StringHelper}}
+
+
+Класс \doxylink{class_string_helper}{String\+Helper} предоставляет вспомогательные методы для работы со строками.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_string_helper_ae2ee341205f9a80d6ae6bdfd104be3a9}{Reverse\+String}} (string str)
+\begin{DoxyCompactList}\small\item\em Возвращает перевернутую строку. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_string_helper_a9e841f1088191543bba4ff46a444a013}{Count\+Words}} (string str)
+\begin{DoxyCompactList}\small\item\em Возвращает количество слов в строке. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_string_helper_ae407f44298a5b0538ad38364b892f3d2}{Is\+Palindrome}} (string str)
+\begin{DoxyCompactList}\small\item\em Проверяет, является ли строка палиндромом. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_string_helper_a8ecb3158a39166414a8bdb0405caf33a}{Capitalize\+First\+Letter}} (string str)
+\begin{DoxyCompactList}\small\item\em Возвращает строку с заглавной первой буквой. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс \doxylink{class_string_helper}{String\+Helper} предоставляет вспомогательные методы для работы со строками. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_string_helper_a8ecb3158a39166414a8bdb0405caf33a}\index{StringHelper@{StringHelper}!CapitalizeFirstLetter@{CapitalizeFirstLetter}}
+\index{CapitalizeFirstLetter@{CapitalizeFirstLetter}!StringHelper@{StringHelper}}
+\doxysubsubsection{\texorpdfstring{CapitalizeFirstLetter()}{CapitalizeFirstLetter()}}
+{\footnotesize\ttfamily \label{class_string_helper_a8ecb3158a39166414a8bdb0405caf33a} 
+string String\+Helper.\+Capitalize\+First\+Letter (\begin{DoxyParamCaption}\item[{string}]{str}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возвращает строку с заглавной первой буквой. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & Входная строка.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Строка с заглавной первой буквой.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Выбрасывается, если str равно null.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_string_helper_a9e841f1088191543bba4ff46a444a013}\index{StringHelper@{StringHelper}!CountWords@{CountWords}}
+\index{CountWords@{CountWords}!StringHelper@{StringHelper}}
+\doxysubsubsection{\texorpdfstring{CountWords()}{CountWords()}}
+{\footnotesize\ttfamily \label{class_string_helper_a9e841f1088191543bba4ff46a444a013} 
+int String\+Helper.\+Count\+Words (\begin{DoxyParamCaption}\item[{string}]{str}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возвращает количество слов в строке. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & Входная строка.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Количество слов в строке.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Выбрасывается, если str равно null.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_string_helper_ae407f44298a5b0538ad38364b892f3d2}\index{StringHelper@{StringHelper}!IsPalindrome@{IsPalindrome}}
+\index{IsPalindrome@{IsPalindrome}!StringHelper@{StringHelper}}
+\doxysubsubsection{\texorpdfstring{IsPalindrome()}{IsPalindrome()}}
+{\footnotesize\ttfamily \label{class_string_helper_ae407f44298a5b0538ad38364b892f3d2} 
+bool String\+Helper.\+Is\+Palindrome (\begin{DoxyParamCaption}\item[{string}]{str}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Проверяет, является ли строка палиндромом. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & Входная строка.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True, если строка является палиндромом; иначе False.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Выбрасывается, если str равно null.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_string_helper_ae2ee341205f9a80d6ae6bdfd104be3a9}\index{StringHelper@{StringHelper}!ReverseString@{ReverseString}}
+\index{ReverseString@{ReverseString}!StringHelper@{StringHelper}}
+\doxysubsubsection{\texorpdfstring{ReverseString()}{ReverseString()}}
+{\footnotesize\ttfamily \label{class_string_helper_ae2ee341205f9a80d6ae6bdfd104be3a9} 
+string String\+Helper.\+Reverse\+String (\begin{DoxyParamCaption}\item[{string}]{str}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возвращает перевернутую строку. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & Входная строка.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Перевернутая строка.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Выбрасывается, если str равно null.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Program.\+cs\end{DoxyCompactItemize}
